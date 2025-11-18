@@ -17,9 +17,6 @@ Untuk menjawabnya, saya:
 - Mengukur **waktu training**, **inertia**, dan **silhouette score**, lalu menghitung **speedup**.
 
 ````python
-
----
-
 ## 2. Langkah-Langkah Kode yang Lengkap
 
 File utama: `kmeans_serial_vs_parallel.py`
