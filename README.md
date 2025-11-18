@@ -17,6 +17,17 @@ Untuk menjawabnya, saya:
 - Mengukur **waktu training**, **inertia**, dan **silhouette score**, lalu menghitung **speedup**.
 
 ````python
+import os
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import make_blobs
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.metrics import silhouette_score
+# 1. Informasi CPU
+print("Jumlah logical CPU:", os.cpu_count())
+
 ## 2. Langkah-Langkah Kode yang Lengkap
 
 File utama: `kmeans_serial_vs_parallel.py`
