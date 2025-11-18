@@ -297,6 +297,3 @@ Proyek ini bisa dijadikan dasar untuk eksperimen lanjutan, misalnya:
 * Mengubah ukuran dataset (lebih kecil / lebih besar).
 * Mengubah jumlah klaster atau parameter `n_init`.
 * Membandingkan dengan algoritma lain yang benar-benar sangat paralel (misalnya Random Forest dengan `n_estimators` besar).
-
-```
-
