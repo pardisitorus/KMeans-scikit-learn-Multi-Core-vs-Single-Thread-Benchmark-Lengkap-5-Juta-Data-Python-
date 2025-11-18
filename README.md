@@ -25,6 +25,7 @@ from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
+
 # 1. Informasi CPU
 print("Jumlah logical CPU:", os.cpu_count())
 
